@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#a90f2d">
+<title>Stevie G's Coffee Company | Blue Ridge, GA</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="#home">
+    <img src="assets/stevie-gs-logo.jpg" alt="Stevie G's Coffee Company logo">
+    <span><strong>Stevie G's</strong><small>Coffee Company</small></span>
+  </a>
+  <button class="menu-toggle" aria-expanded="false">☰</button>
+  <nav class="site-nav">
+    <a href="#menu">Menu</a><a href="#about">Our Story</a><a href="#visit">Visit</a><a href="#gallery">Photos</a><a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-copy">
+    <p class="eyebrow">BLUE RIDGE, GEORGIA</p>
+    <h1 id="tagline">Come for the coffee.<br><em>Stay for the feeling.</em></h1>
+    <p id="hero-text" class="hero-lede"></p>
+    <div class="hero-actions">
+      <a class="button primary" href="#menu">See the Menu</a>
+      <a class="button secondary" href="#visit">Plan Your Visit</a>
+    </div>
+    <div class="quick">
+      <div><span>HOURS</span><strong id="hours-short"></strong></div>
+      <div><span>LOCATION</span><strong>389 W. First Street</strong></div>
+    </div>
+  </div>
+  <div class="hero-photo" id="hero-photo-wrap">
+    <img id="hero-photo" src="assets/stevie-gs-logo.jpg" alt="Stevie G's Coffee Company">
+  </div>
+</section>
+
+<section class="ticker"><div>ESPRESSO • LATTES • MATCHA • CHAI • COLD BREW • WAFFLES • CAFE BITES • BLUE RIDGE •</div></section>
+
+<section class="welcome">
+  <div>
+    <p class="eyebrow">YOUR NEIGHBORHOOD COFFEE STOP</p>
+    <h2>A little cozy. A little bold. <em>Very Stevie G's.</em></h2>
+  </div>
+  <p>Whether you're headed downtown, meeting a friend, working for a while, or just need your favorite drink before the day gets busy, we'd love to see you.</p>
+</section>
+
+<section id="menu" class="menu-section">
+  <div class="heading light">
+    <p class="eyebrow">THE MENU</p>
+    <h2>Something for every kind of craving.</h2>
+    <p id="menu-intro"></p>
+  </div>
+  <div id="menu-sections" class="menu-sections"></div>
+</section>
+
+<section id="about" class="story">
+  <div class="story-copy">
+    <p class="eyebrow">OUR STORY</p>
+    <h2 id="about-title"></h2>
+    <p id="about-1"></p>
+    <p id="about-2"></p>
+  </div>
+  <div class="story-logo">
+    <img src="assets/stevie-gs-logo.jpg" alt="">
+    <blockquote>“Meet me at Stevie G's.”</blockquote>
+  </div>
+</section>
+
+<section class="hours-strip">
+  <div><p class="eyebrow">OPEN SIX DAYS A WEEK</p><h2 id="hours-large"></h2></div>
+  <a class="button cream" href="#visit">Get Directions</a>
+</section>
+
+<section id="visit" class="visit">
+  <div class="visit-card">
+    <p class="eyebrow">COME SEE US</p><h2>Right here in Blue Ridge.</h2>
+    <div class="details">
+      <div><span>ADDRESS</span><strong id="address"></strong></div>
+      <div><span>HOURS</span><strong id="hours"></strong></div>
+      <div><span>SUNDAY</span><strong id="sunday"></strong></div>
+      <div><span>EMAIL</span><a id="email-link"></a></div>
+    </div>
+    <div class="hero-actions">
+      <a id="maps-link" class="button primary" target="_blank" rel="noopener">Open in Google Maps</a>
+      <a id="email-button" class="button secondary">Email Stevie G's</a>
+      <a id="order-button" class="button secondary hidden" target="_blank" rel="noopener">Order Online</a>
+    </div>
+  </div>
+  <div class="map-card"><div class="pin">★</div><strong>BLUE RIDGE</strong><span>GEORGIA</span></div>
+</section>
+
+<section id="gallery" class="gallery">
+  <div class="heading">
+    <p class="eyebrow">A LOOK INSIDE</p><h2>Fresh from Stevie G's.</h2>
+    <p>Add and change these photos any time from your website editor.</p>
+  </div>
+  <div id="gallery-grid" class="gallery-grid"></div>
+</section>
+
+<section id="contact" class="contact">
+  <div>
+    <p class="eyebrow">LET'S CONNECT</p><h2>Questions, catering, or just want to say hey?</h2>
+    <p>Reach out and we'll get back to you as soon as we can.</p>
+  </div>
+  <div class="contact-card">
+    <span>EMAIL</span><a id="contact-email"></a>
+    <div id="social-links" class="social-links"></div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="footer-brand"><img src="assets/stevie-gs-logo.jpg" alt=""><strong>Stevie G's Coffee Company</strong></div>
+  <p id="footer-address"></p><p id="footer-hours"></p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
