@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Stevie G's Website Editor</title>
+<style>
+body{margin:0;font-family:system-ui,sans-serif}
+</style>
+<script>window.CMS_MANUAL_INIT = true;</script>
+<script src="https://unpkg.com/decap-cms@^3.8.0/dist/decap-cms.js"></script>
+</head>
+<body>
+<script>
+CMS.init({
+  config: {
+    backend: {
+      name: "github",
+      repo: "steviegscoffeecompany/stevie-gs-coffee-company",
+      branch: "main"
+    },
+    media_folder: "uploads",
+    public_folder: "/uploads",
+    site_url: "https://steviegscoffeecompany.netlify.app",
+    display_url: "https://steviegscoffeecompany.netlify.app",
+    collections: [
+      {
+        name: "website",
+        label: "Website",
+        files: [
+          {
+            name: "site",
+            label: "Business Info, Homepage & Photos",
+            file: "site.json",
+            format: "json",
+            fields: [
+              {label:"Business Name",name:"business_name",widget:"string"},
+              {label:"Homepage Headline",name:"tagline",widget:"string"},
+              {label:"Homepage Intro",name:"hero_text",widget:"text"},
+              {label:"About Heading",name:"about_title",widget:"string"},
+              {label:"About Paragraph 1",name:"about_text_1",widget:"text"},
+              {label:"About Paragraph 2",name:"about_text_2",widget:"text"},
+              {label:"Address",name:"address",widget:"string"},
+              {label:"Email",name:"email",widget:"string"},
+              {label:"Hours",name:"hours",widget:"string"},
+              {label:"Sunday",name:"sunday",widget:"string"},
+              {label:"Instagram URL",name:"instagram",widget:"string",required:false},
+              {label:"Facebook URL",name:"facebook",widget:"string",required:false},
+              {label:"Online Ordering URL",name:"order_online",widget:"string",required:false},
+              {label:"Large Homepage Photo",name:"featured_photo",widget:"image",required:false},
+              {label:"Photo Gallery",name:"gallery",widget:"list",required:false,fields:[
+                {label:"Photo",name:"image",widget:"image"},
+                {label:"Photo Description",name:"alt",widget:"string",required:false}
+              ]}
+            ]
+          },
+          {
+            name: "menu",
+            label: "Menu",
+            file: "menu.json",
+            format: "json",
+            fields: [
+              {label:"Menu Intro",name:"intro",widget:"text"},
+              {label:"Menu Sections",name:"sections",widget:"list",fields:[
+                {label:"Section Name",name:"name",widget:"string"},
+                {label:"Items",name:"items",widget:"list",required:false,fields:[
+                  {label:"Item Name",name:"name",widget:"string"},
+                  {label:"Description",name:"description",widget:"string",required:false},
+                  {label:"Price",name:"price",widget:"string",required:false}
+                ]}
+              ]}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+});
+</script>
+</body>
+</html>

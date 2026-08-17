@@ -1,0 +1,21 @@
+{
+  "intro": "Our full menu and pricing are coming soon. Add drinks, food, sizes and prices here whenever you're ready.",
+  "sections": [
+    {
+      "name": "Coffee & Espresso",
+      "items": []
+    },
+    {
+      "name": "Matcha, Chai & More",
+      "items": []
+    },
+    {
+      "name": "Waffles",
+      "items": []
+    },
+    {
+      "name": "Cafe Favorites",
+      "items": []
+    }
+  ]
+}

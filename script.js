@@ -4,7 +4,7 @@ function setText(id,val){ const el=$(id); if(el) el.textContent=val||""; }
 function link(id,text,href){ const el=$(id); if(!el)return; el.textContent=text||""; el.href=href||"#"; }
 
 async function load(){
-  const [site,menu]=await Promise.all([getJSON("content/site.json"),getJSON("content/menu.json")]);
+  const [site,menu]=await Promise.all([getJSON("site.json"),getJSON("menu.json")]);
   setText("hero-text",site.hero_text);
   const tag=$("tagline");
   if(tag){ const parts=(site.tagline||"").split(". "); tag.innerHTML=parts.length>1 ? `${parts[0]}.<br><em>${parts.slice(1).join(". ")}</em>` : site.tagline; }
