@@ -1,21 +1,185 @@
 {
-  "intro": "Our full menu and pricing are coming soon. Add drinks, food, sizes and prices here whenever you're ready.",
+  "intro": "Freshly made sandwiches, bubble waffles, locally sourced coffee, espresso drinks, chai, and seasonal organic flavors.",
   "sections": [
     {
-      "name": "Coffee & Espresso",
-      "items": []
+      "name": "Sandwiches",
+      "items": [
+        {
+          "name": "Bayou Turkey",
+          "description": "Freshly sliced turkey, arugula, Havarti cheese, Cajun mayo, and pickled red onion.",
+          "price": ""
+        },
+        {
+          "name": "Ham & Jam",
+          "description": "Sliced ham, arugula, Havarti cheese, and raspberry jam.",
+          "price": ""
+        },
+        {
+          "name": "Brekkie Bagel",
+          "description": "Sausage or bacon, egg, and cheese.",
+          "price": ""
+        },
+        {
+          "name": "Summit Chicken Salad",
+          "description": "Chicken salad made fresh daily with arugula and a sweet and savory balsamic glaze.",
+          "price": ""
+        },
+        {
+          "name": "Spicy BLAT",
+          "description": "Bacon, arugula, avocado spread, tomato, Havarti cheese, and house-made sriracha. Add an egg for extra protein.",
+          "price": ""
+        },
+        {
+          "name": "The Seaside",
+          "description": "Tuna, arugula, and tomato.",
+          "price": ""
+        }
+      ]
     },
     {
-      "name": "Matcha, Chai & More",
-      "items": []
+      "name": "Sides",
+      "items": [
+        {
+          "name": "Pasta Salad",
+          "description": "",
+          "price": ""
+        },
+        {
+          "name": "Chips",
+          "description": "",
+          "price": ""
+        },
+        {
+          "name": "Broccoli Salad",
+          "description": "",
+          "price": ""
+        },
+        {
+          "name": "Grape Salad",
+          "description": "",
+          "price": ""
+        },
+        {
+          "name": "Hash Brown Casserole Bites",
+          "description": "",
+          "price": ""
+        }
+      ]
     },
     {
-      "name": "Waffles",
-      "items": []
+      "name": "Bubble Waffles",
+      "items": [
+        {
+          "name": "Banana Pudding",
+          "description": "Bananas, creamy pudding, and Nilla wafers.",
+          "price": ""
+        },
+        {
+          "name": "Raspberry & White Chocolate",
+          "description": "Fresh raspberries, white chocolate chips, and raspberry drizzle.",
+          "price": ""
+        },
+        {
+          "name": "Nutella Melt",
+          "description": "Strawberries drizzled with Nutella, topped with whipped cream and powdered sugar.",
+          "price": ""
+        },
+        {
+          "name": "Cookie Butter",
+          "description": "Creamy cookie butter and crunchy cookie pieces, topped with whipped cream.",
+          "price": ""
+        },
+        {
+          "name": "Apple Fritter",
+          "description": "Spiced apples with a caramel drizzle, topped with whipped cream.",
+          "price": ""
+        }
+      ]
     },
     {
-      "name": "Cafe Favorites",
-      "items": []
+      "name": "Brews",
+      "items": [
+        {
+          "name": "Fresh Drip",
+          "description": "Locally sourced beans delivered fresh for some of the freshest, hottest coffee around.",
+          "price": ""
+        },
+        {
+          "name": "Doppio",
+          "description": "Double shot of espresso.",
+          "price": ""
+        },
+        {
+          "name": "Latte",
+          "description": "Double espresso with steamed milk.",
+          "price": ""
+        },
+        {
+          "name": "Cappuccino",
+          "description": "Double espresso with steamed milk and foam.",
+          "price": ""
+        },
+        {
+          "name": "Mocha",
+          "description": "Double espresso, steamed milk, and organic dark chocolate.",
+          "price": ""
+        },
+        {
+          "name": "Americano",
+          "description": "Double espresso and water.",
+          "price": ""
+        },
+        {
+          "name": "Macchiato",
+          "description": "Double espresso with a dollop of foam.",
+          "price": ""
+        },
+        {
+          "name": "Iced Latte",
+          "description": "Double espresso, cold milk, and ice.",
+          "price": ""
+        },
+        {
+          "name": "Cold Brew",
+          "description": "Brewed in-house for 18 hours.",
+          "price": ""
+        }
+      ]
+    },
+    {
+      "name": "Tea & Chai",
+      "items": [
+        {
+          "name": "Chai Tea",
+          "description": "Organic chai blend, fresh spices, and steamed milk.",
+          "price": ""
+        },
+        {
+          "name": "Iced Chai",
+          "description": "Organic chai blend and milk served over ice.",
+          "price": ""
+        },
+        {
+          "name": "Dirty Chai",
+          "description": "Organic chai blend, double shot of espresso, and steamed milk.",
+          "price": ""
+        },
+        {
+          "name": "Hot Tea",
+          "description": "Ask about our available hot tea flavors.",
+          "price": ""
+        }
+      ]
+    },
+    {
+      "name": "Organic Flavors",
+      "items": [
+        {
+          "name": "Add a Flavor",
+          "description": "Flavors may vary with availability and season: vanilla, chocolate, caramel, white chocolate, lavender, raspberry, peppermint, hazelnut, coconut, praline, and habanero.",
+          "price": "$1"
+        }
+      ]
     }
   ]
 }
