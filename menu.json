@@ -176,7 +176,7 @@
       "items": [
         {
           "name": "Add a Flavor",
-          "description": "Flavors may vary with availability and season: vanilla, chocolate, caramel, white chocolate, lavender, raspberry, peppermint, hazelnut, coconut, praline, and habanero.",
+          "description": "Flavors may vary with availability and season: vanilla, sugar free vanilla, chocolate, caramel, white chocolate, lavender, raspberry, hazelnut, coconut, praline, and habanero.",
           "price": "$1"
         }
       ]
