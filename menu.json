@@ -1,38 +1,173 @@
 {
-  "intro": "Freshly made sandwiches, bubble waffles, locally sourced coffee, espresso drinks, chai, and seasonal organic flavors.",
+  "intro": "Freshly made breakfast, sandwiches, bubble waffles, smoothies, locally roasted coffee, espresso drinks, chai, tea, and house flavors.",
   "sections": [
     {
-      "name": "Sandwiches",
+      "name": "Brews",
+      "items": [
+        {
+          "name": "Fresh Drip Coffee",
+          "description": "Locally roasted beans, brewed fresh throughout the day. 12 oz. Bottomless for dine-in.",
+          "price": "$3.50"
+        },
+        {
+          "name": "Espresso",
+          "description": "Double-shot espresso.",
+          "price": "$3.00"
+        },
+        {
+          "name": "Latte",
+          "description": "Double espresso and milk. Hot or iced. 12 oz / 16 oz.",
+          "price": "$5.50 / $6.50"
+        },
+        {
+          "name": "Cappuccino",
+          "description": "Double espresso, steamed milk and foam. 12 oz / 16 oz.",
+          "price": "$5.50 / $6.50"
+        },
+        {
+          "name": "Mocha",
+          "description": "Double espresso, steamed milk and organic dark chocolate. 12 oz / 16 oz.",
+          "price": "$5.50 / $6.50"
+        },
+        {
+          "name": "Americano",
+          "description": "Quad espresso and hot water. 16 oz.",
+          "price": "$4.50"
+        },
+        {
+          "name": "Macchiato",
+          "description": "Double espresso topped with a dollop of foam.",
+          "price": "$4.00"
+        },
+        {
+          "name": "Cold Brew",
+          "description": "Brewed in-house for 18 hours. 16 oz / 20 oz.",
+          "price": "$5.50 / $6.50"
+        },
+        {
+          "name": "Matcha Latte",
+          "description": "Matcha and milk, served hot or iced. 16 oz.",
+          "price": "$6.75"
+        },
+        {
+          "name": "Stevie's Hot Chocolate",
+          "description": "Organic dark chocolate, vanilla, milk and whipped cream. 12 oz.",
+          "price": "$4.00"
+        },
+        {
+          "name": "Chocolate Milk",
+          "description": "12 oz.",
+          "price": "$4.00"
+        }
+      ]
+    },
+    {
+      "name": "Specialty Coffee",
+      "items": [
+        {
+          "name": "Specialty Coffee",
+          "description": "One size — 16 oz. See our Specialty Coffee Menu for our signature creations.",
+          "price": "$7.50"
+        }
+      ]
+    },
+    {
+      "name": "Chai & Tea",
+      "items": [
+        {
+          "name": "Chai Tea",
+          "description": "Our chai comes straight from India. Organic chai blend, fresh spices and steamed milk. 12 oz / 16 oz.",
+          "price": "$5.50 / $6.50"
+        },
+        {
+          "name": "Iced Chai",
+          "description": "Organic chai blend and milk served over ice. 12 oz / 16 oz.",
+          "price": "$5.50 / $6.50"
+        },
+        {
+          "name": "Dirty Chai",
+          "description": "Organic chai blend, double-shot espresso and milk. 12 oz / 16 oz.",
+          "price": "$6.50 / $7.50"
+        },
+        {
+          "name": "Hot Tea",
+          "description": "12 oz. Ask about our available tea flavors.",
+          "price": "$4.00"
+        }
+      ]
+    },
+    {
+      "name": "House Flavors",
+      "items": [
+        {
+          "name": "Add to Any Drink",
+          "description": "Our sauces and syrups are made in small batches with clean ingredients. Flavors may vary with availability and season. Madagascar Vanilla • Chocolate • Caramel • White Chocolate • Lavender • Raspberry • Hazelnut • Coconut • Praline • Sugar-Free Vanilla • Cayenne • Simple Syrup",
+          "price": "+$1.00"
+        }
+      ]
+    },
+    {
+      "name": "Breakfast & Bites",
+      "items": [
+        {
+          "name": "Brekkie Bagel",
+          "description": "Sausage or bacon, egg and cheese on a bagel.",
+          "price": "$10.50"
+        },
+        {
+          "name": "Biscuits & Sausage Gravy",
+          "description": "Two biscuits smothered in sausage gravy and topped with two fried eggs.",
+          "price": "$14.00"
+        },
+        {
+          "name": "The Ridgeline",
+          "description": "Sourdough toast topped with avocado, fresh tomato and sliced onion, finished with a drizzle of olive oil. Add a fried egg +$1.50.",
+          "price": "$7.00"
+        },
+        {
+          "name": "The Overlook",
+          "description": "Open-faced sourdough topped with avocado spread, arugula, fried egg and feta, finished with our house-made sweet and spicy white sauce.",
+          "price": "$14.00"
+        },
+        {
+          "name": "Croissant & Chocolate",
+          "description": "Buttery croissant served with chocolate sauce for dipping.",
+          "price": "$6.00"
+        }
+      ]
+    },
+    {
+      "name": "Sandwiches & Lunch",
       "items": [
         {
           "name": "Bayou Turkey",
-          "description": "Freshly sliced turkey, arugula, Havarti cheese, Cajun mayo, and pickled red onion.",
-          "price": ""
+          "description": "Freshly sliced turkey, arugula, Havarti, Cajun mayo and pickled red onion.",
+          "price": "$14.00"
         },
         {
           "name": "Ham & Jam",
-          "description": "Sliced ham, arugula, Havarti cheese, and raspberry jam.",
-          "price": ""
-        },
-        {
-          "name": "Brekkie Bagel",
-          "description": "Sausage or bacon, egg, and cheese.",
-          "price": ""
+          "description": "Freshly sliced ham, arugula, Havarti and raspberry jam sauce.",
+          "price": "$14.00"
         },
         {
           "name": "Summit Chicken Salad",
-          "description": "Chicken salad made fresh daily with arugula and a sweet and savory balsamic glaze.",
-          "price": ""
+          "description": "Fresh-made chicken salad with arugula and a sweet and savory balsamic glaze.",
+          "price": "$14.00"
         },
         {
           "name": "Spicy BLAT",
-          "description": "Bacon, arugula, avocado spread, tomato, Havarti cheese, and house-made sriracha. Add an egg for extra protein.",
-          "price": ""
+          "description": "Bacon, arugula, avocado spread, tomato, Havarti and house-made sriracha. Add a fried egg +$1.50.",
+          "price": "$14.00"
         },
         {
           "name": "The Seaside",
-          "description": "Tuna, arugula, and tomato.",
-          "price": ""
+          "description": "Tuna, arugula and fresh tomato.",
+          "price": "$12.50"
+        },
+        {
+          "name": "The Scoop",
+          "description": "Your choice of chicken salad or tuna salad served over a bed of arugula with crackers.",
+          "price": "$9.00"
         }
       ]
     },
@@ -40,29 +175,24 @@
       "name": "Sides",
       "items": [
         {
-          "name": "Pasta Salad",
+          "name": "Sea Salt Chips",
           "description": "",
-          "price": ""
+          "price": "$3.00"
         },
         {
-          "name": "Chips",
+          "name": "Pasta Salad",
           "description": "",
-          "price": ""
+          "price": "$3.50"
         },
         {
           "name": "Broccoli Salad",
           "description": "",
-          "price": ""
+          "price": "$4.00"
         },
         {
           "name": "Grape Salad",
           "description": "",
-          "price": ""
-        },
-        {
-          "name": "Hash Brown Casserole Bites",
-          "description": "",
-          "price": ""
+          "price": "$4.50"
         }
       ]
     },
@@ -70,114 +200,79 @@
       "name": "Bubble Waffles",
       "items": [
         {
-          "name": "Banana Pudding",
-          "description": "Bananas, creamy pudding, and Nilla wafers.",
-          "price": ""
+          "name": "Banana Puddin'",
+          "description": "Lolli's nana puddin', fresh bananas and Nilla Wafers.",
+          "price": "$12.00"
         },
         {
           "name": "Raspberry & White Chocolate",
-          "description": "Fresh raspberries, white chocolate chips, and raspberry drizzle.",
-          "price": ""
+          "description": "Fresh raspberries, white chocolate chips and raspberry drizzle.",
+          "price": "$12.00"
         },
         {
           "name": "Nutella Melt",
-          "description": "Strawberries drizzled with Nutella, topped with whipped cream and powdered sugar.",
-          "price": ""
+          "description": "Fresh strawberries drizzled with Nutella and topped with whipped cream and powdered sugar.",
+          "price": "$12.00"
         },
         {
           "name": "Cookie Butter",
-          "description": "Creamy cookie butter and crunchy cookie pieces, topped with whipped cream.",
-          "price": ""
+          "description": "Creamy cookie butter and crunchy cookie, topped with whipped cream.",
+          "price": "$12.00"
         },
         {
           "name": "Apple Fritter",
-          "description": "Spiced apples with a caramel drizzle, topped with whipped cream.",
-          "price": ""
+          "description": "Spiced apples and caramel drizzle, topped with whipped cream.",
+          "price": "$12.00"
         }
       ]
     },
     {
-      "name": "Brews",
+      "name": "Smoothies",
       "items": [
         {
-          "name": "Fresh Drip",
-          "description": "Locally sourced beans delivered fresh for some of the freshest, hottest coffee around.",
-          "price": ""
-        },
-        {
-          "name": "Doppio",
-          "description": "Double shot of espresso.",
-          "price": ""
-        },
-        {
-          "name": "Latte",
-          "description": "Double espresso with steamed milk.",
-          "price": ""
-        },
-        {
-          "name": "Cappuccino",
-          "description": "Double espresso with steamed milk and foam.",
-          "price": ""
-        },
-        {
-          "name": "Mocha",
-          "description": "Double espresso, steamed milk, and organic dark chocolate.",
-          "price": ""
-        },
-        {
-          "name": "Americano",
-          "description": "Double espresso and water.",
-          "price": ""
-        },
-        {
-          "name": "Macchiato",
-          "description": "Double espresso with a dollop of foam.",
-          "price": ""
-        },
-        {
-          "name": "Iced Latte",
-          "description": "Double espresso, cold milk, and ice.",
-          "price": ""
-        },
-        {
-          "name": "Cold Brew",
-          "description": "Brewed in-house for 18 hours.",
-          "price": ""
+          "name": "Smoothies",
+          "description": "16 oz. Strawberry • Mango • Peach • Banana • Wildberry",
+          "price": "$6.50"
         }
       ]
     },
     {
-      "name": "Tea & Chai",
+      "name": "For the Littles",
       "items": [
         {
-          "name": "Chai Tea",
-          "description": "Organic chai blend, fresh spices, and steamed milk.",
-          "price": ""
+          "name": "Plain Waffle",
+          "description": "Served with butter and syrup. Add chocolate sauce, strawberries, raspberries, bananas or white chocolate chips +$3.00.",
+          "price": "$6.00"
         },
         {
-          "name": "Iced Chai",
-          "description": "Organic chai blend and milk served over ice.",
-          "price": ""
+          "name": "Pressed Grilled Cheese",
+          "description": "",
+          "price": "$6.00"
         },
         {
-          "name": "Dirty Chai",
-          "description": "Organic chai blend, double shot of espresso, and steamed milk.",
-          "price": ""
+          "name": "Ham & Cheese Sandwich",
+          "description": "",
+          "price": "$6.00"
         },
         {
-          "name": "Hot Tea",
-          "description": "Ask about our available hot tea flavors.",
-          "price": ""
+          "name": "Turkey & Cheese Sandwich",
+          "description": "",
+          "price": "$6.00"
+        },
+        {
+          "name": "Chocolate Milk",
+          "description": "",
+          "price": "$4.00"
         }
       ]
     },
     {
-      "name": "Organic Flavors-Homemade in small batches",
+      "name": "Milk Options",
       "items": [
         {
-          "name": "Add a Flavor",
-          "description": "Flavors may vary with availability and season: vanilla, sugar free vanilla, chocolate, caramel, white chocolate, lavender, raspberry, hazelnut, coconut, praline, and habanero.",
-          "price": "$1"
+          "name": "Milk Options",
+          "description": "Whole milk is our standard milk. Oat milk and almond milk available.",
+          "price": ""
         }
       ]
     }
