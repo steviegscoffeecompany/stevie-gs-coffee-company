@@ -14,3 +14,24 @@
     font-size: 14px;
   }
 }
+.contact-card {
+  min-width: 360px;
+}
+
+#contact-email {
+  display: block;
+  white-space: nowrap !important;
+  overflow-wrap: normal !important;
+  word-break: normal !important;
+}
+
+@media (max-width: 560px) {
+  .contact-card {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #contact-email {
+    font-size: 13px;
+  }
+}
