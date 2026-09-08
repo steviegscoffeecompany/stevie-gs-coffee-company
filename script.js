@@ -10,7 +10,7 @@ async function load(){
   if(tag){ const parts=(site.tagline||"").split(". "); tag.innerHTML=parts.length>1 ? `${parts[0]}.<br><em>${parts.slice(1).join(". ")}</em>` : site.tagline; }
   setText("hours-short",site.hours);
   setText("about-title",site.about_title); setText("about-1",site.about_text_1); setText("about-2",site.about_text_2);
-  setText("address",site.address); setText("hours",site.hours); setText("sunday",site.sunday);
+  setText("address",site.address); setText("hours",site.hours); setText("sunday",site.sunday); setText("phone",site.phone);
   link("email-link",site.email,`mailto:${site.email}`); link("contact-email",site.email,`mailto:${site.email}`);
   $("email-button").href=`mailto:${site.email}`; $("maps-link").href=`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(site.address)}`;
   setText("footer-address",site.address); setText("footer-hours",site.hours);
