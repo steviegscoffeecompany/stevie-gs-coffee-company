@@ -176,6 +176,40 @@
   <a href="cancellations.html">Cancellation Policy</a>
 </div>
 </footer>
+
+<button class="deals-tab" id="deals-tab" type="button" aria-controls="deals-popup" aria-expanded="false">
+  <span>Stevie G's Perks</span>
+  <small>Deals &amp; shop news</small>
+</button>
+
+<div class="deals-overlay" id="deals-popup" hidden>
+  <section class="deals-dialog" role="dialog" aria-modal="true" aria-labelledby="deals-title" aria-describedby="deals-copy">
+    <button class="deals-close" id="deals-close" type="button" aria-label="Close deals signup">&times;</button>
+    <div class="deals-stamp" aria-hidden="true">SG</div>
+    <p class="eyebrow">A LITTLE SOMETHING EXTRA</p>
+    <h2 id="deals-title">Get the good stuff.</h2>
+    <p id="deals-copy">Be first in line for deals, seasonal drinks, promotions, and news from Stevie G's.</p>
+    <form id="deals-form" name="stevie-gs-perks" method="POST" data-netlify="true" netlify-honeypot="bot-field" novalidate>
+      <input type="hidden" name="form-name" value="stevie-gs-perks">
+      <input type="hidden" name="subject" value="New Stevie G's Perks signup">
+      <p class="bot-field" aria-hidden="true"><label>Leave this field empty <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+      <div class="deals-fields">
+        <label><span>Email address</span><input id="deals-email" type="email" name="email" autocomplete="email" placeholder="you@example.com"></label>
+        <span class="field-divider">or</span>
+        <label><span>Phone number</span><input id="deals-phone" type="tel" name="phone" autocomplete="tel" inputmode="tel" placeholder="(706) 555-0123"></label>
+      </div>
+      <p class="form-error" id="deals-error" role="alert" hidden></p>
+      <label class="consent-row"><input id="deals-consent" type="checkbox" name="marketing-consent" value="Yes" required><span>I agree to receive promotional emails or texts from Stevie G's at the contact information provided. Message and data rates may apply. I can unsubscribe at any time.</span></label>
+      <button class="button primary deals-submit" type="submit">Keep me in the loop</button>
+      <p class="deals-fine-print">No spam—just coffee-shop news worth opening.</p>
+    </form>
+    <div class="deals-success" id="deals-success" role="status" hidden>
+      <strong>You're on the list.</strong>
+      <p>Thanks for joining the Stevie G's circle. Keep an eye on your inbox or phone.</p>
+      <button class="button secondary" id="deals-done" type="button">Back to the site</button>
+    </div>
+  </section>
+</div>
 <script src="script.js"></script>
 </body>
 </html>
