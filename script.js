@@ -49,3 +49,41 @@ load().catch(console.error);
 const toggle=document.querySelector(".menu-toggle"),nav=document.querySelector(".site-nav");
 toggle?.addEventListener("click",()=>{const o=nav.classList.toggle("open");toggle.setAttribute("aria-expanded",o)});
 nav?.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>nav.classList.remove("open")));
+
+const dealsPopup=$("deals-popup"),dealsTab=$("deals-tab"),dealsClose=$("deals-close"),dealsForm=$("deals-form");
+let dealsLastFocus=null;
+function openDeals(){
+  if(!dealsPopup)return;
+  dealsLastFocus=document.activeElement;dealsPopup.hidden=false;document.body.classList.add("deals-lock");dealsTab?.setAttribute("aria-expanded","true");
+  window.setTimeout(()=>$('deals-email')?.focus(),50);
+}
+function closeDeals(){
+  if(!dealsPopup)return;
+  dealsPopup.hidden=true;document.body.classList.remove("deals-lock");dealsTab?.setAttribute("aria-expanded","false");
+  try{localStorage.setItem("stevie-gs-perks-seen",Date.now().toString())}catch{}
+  dealsLastFocus?.focus?.();
+}
+dealsTab?.addEventListener("click",openDeals);dealsClose?.addEventListener("click",closeDeals);$("deals-done")?.addEventListener("click",closeDeals);
+dealsPopup?.addEventListener("click",event=>{if(event.target===dealsPopup)closeDeals()});
+document.addEventListener("keydown",event=>{if(event.key==="Escape"&&!dealsPopup?.hidden)closeDeals()});
+window.setTimeout(()=>{
+  let recentlySeen=false;try{const seen=Number(localStorage.getItem("stevie-gs-perks-seen"));recentlySeen=seen>0&&Date.now()-seen<7*24*60*60*1000}catch{}
+  if(!recentlySeen&&dealsPopup?.hidden)openDeals();
+},6500);
+
+dealsForm?.addEventListener("submit",async event=>{
+  event.preventDefault();
+  const email=$("deals-email"),phone=$("deals-phone"),consent=$("deals-consent"),error=$("deals-error"),button=dealsForm.querySelector("button[type=submit]");
+  error.hidden=true;
+  if(!email.value.trim()&&!phone.value.trim()){error.textContent="Please enter an email address or phone number.";error.hidden=false;email.focus();return}
+  if(email.value&&!email.validity.valid){error.textContent="Please enter a valid email address.";error.hidden=false;email.focus();return}
+  if(!consent.checked){error.textContent="Please confirm that you'd like to receive Stevie G's updates.";error.hidden=false;consent.focus();return}
+  button.disabled=true;button.textContent="Joining…";
+  try{
+    const response=await fetch("/",{method:"POST",headers:{"Content-Type":"application/x-www-form-urlencoded"},body:new URLSearchParams(new FormData(dealsForm)).toString()});
+    if(!response.ok)throw new Error("Submission failed");
+    dealsForm.hidden=true;$("deals-success").hidden=false;try{localStorage.setItem("stevie-gs-perks-seen",Date.now().toString())}catch{}$("deals-done")?.focus();
+  }catch{
+    error.textContent="We couldn't add you just now. Please try again in a moment.";error.hidden=false;button.disabled=false;button.textContent="Keep me in the loop";
+  }
+});
