@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#a90f2d">
+  <title>Job Application | Stevie G's Coffee Company</title>
+  <meta name="description" content="Apply to join the team at Stevie G's Coffee Company in Blue Ridge, Georgia.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="application-page">
+  <header class="site-header application-header">
+    <a class="brand" href="index.html">
+      <img src="stevie-gs-logo.jpg" alt="Stevie G's Coffee Company logo">
+      <span><strong>Stevie G's</strong><small>Coffee Company</small></span>
+    </a>
+    <a class="back-link" href="index.html">Back to the café</a>
+  </header>
+
+  <main class="application-main">
+    <section class="application-intro">
+      <p class="eyebrow">JOIN THE STEVIE G'S CREW</p>
+      <h1>Good coffee starts with <em>good people.</em></h1>
+      <p>Tell us a little about yourself, your experience, and when you’re available. We’ll review your application and get in touch if there’s a fit.</p>
+      <div class="application-note">
+        <span>LOCATION</span>
+        <strong>389 W. First Street<br>Blue Ridge, Georgia</strong>
+      </div>
+    </section>
+
+    <section class="application-form-wrap" aria-labelledby="application-title">
+      <div class="form-heading">
+        <p class="eyebrow">EMPLOYMENT APPLICATION</p>
+        <h2 id="application-title">Let’s get acquainted.</h2>
+        <p>Fields marked with an asterisk are required.</p>
+      </div>
+      <form class="job-application" name="job-application" method="POST" action="/application-thanks" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="job-application">
+        <input type="hidden" name="subject" value="New job application from Stevie G's website">
+        <p class="bot-field" aria-hidden="true"><label>Leave this field empty <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+
+        <fieldset>
+          <legend>About you</legend>
+          <div class="form-grid two-column">
+            <label><span>Full name *</span><input type="text" name="name" autocomplete="name" required></label>
+            <label><span>Email address *</span><input type="email" name="email" autocomplete="email" required></label>
+            <label><span>Phone number *</span><input type="tel" name="phone" autocomplete="tel" required></label>
+            <label><span>Preferred position *</span>
+              <select name="position" required>
+                <option value="">Choose one</option>
+                <option>Barista</option>
+                <option>Kitchen / food prep</option>
+                <option>Shift lead</option>
+                <option>Any available position</option>
+              </select>
+            </label>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Availability</legend>
+          <div class="form-grid two-column">
+            <label><span>Earliest start date *</span><input type="date" name="start-date" required></label>
+            <label><span>Hours wanted per week *</span><input type="number" name="hours-per-week" min="1" max="60" inputmode="numeric" required></label>
+          </div>
+          <div class="availability-group">
+            <span class="field-label">Days you can work</span>
+            <div class="check-grid">
+              <label><input type="checkbox" name="available-days" value="Monday"> Monday</label>
+              <label><input type="checkbox" name="available-days" value="Tuesday"> Tuesday</label>
+              <label><input type="checkbox" name="available-days" value="Wednesday"> Wednesday</label>
+              <label><input type="checkbox" name="available-days" value="Thursday"> Thursday</label>
+              <label><input type="checkbox" name="available-days" value="Friday"> Friday</label>
+              <label><input type="checkbox" name="available-days" value="Saturday"> Saturday</label>
+            </div>
+          </div>
+          <label class="full-field"><span>Typical availability *</span><textarea name="availability" rows="3" placeholder="For example: Monday–Friday after 10 a.m.; open availability Saturday" required></textarea></label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Experience</legend>
+          <label class="full-field"><span>Most recent employer or relevant experience</span><textarea name="experience" rows="4" placeholder="Share your role, responsibilities, and dates worked."></textarea></label>
+          <label class="full-field"><span>Why would you like to work at Stevie G’s? *</span><textarea name="why-stevie-gs" rows="5" required></textarea></label>
+          <label class="full-field"><span>Anything else you’d like us to know?</span><textarea name="additional-information" rows="4"></textarea></label>
+        </fieldset>
+
+        <label class="certification-row"><input type="checkbox" name="certification" value="I certify" required><span>I certify that the information in this application is true and complete to the best of my knowledge. *</span></label>
+        <button class="button primary application-submit" type="submit">Submit application</button>
+        <p class="form-privacy">Your information is used only to consider you for employment. Please don’t include sensitive details such as a Social Security number or banking information.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="application-footer">
+    <div class="footer-brand"><img src="stevie-gs-logo.jpg" alt=""><strong>Stevie G's Coffee Company</strong></div>
+    <p>389 W. First Street · Blue Ridge, GA</p>
+  </footer>
+</body>
+</html>
