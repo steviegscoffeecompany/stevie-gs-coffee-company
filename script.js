@@ -19,7 +19,7 @@ async function load(){
   if(site.order_online){ $("order-button").href=site.order_online; $("order-button").classList.remove("hidden"); }
 
   const social=$("social-links");
-  [["Instagram",site.instagram],["Facebook",site.facebook]].forEach(([name,url])=>{ if(url){ const a=document.createElement("a");a.href=url;a.target="_blank";a.rel="noopener";a.textContent=name;social.appendChild(a);} });
+  [["Facebook",site.facebook],["Instagram",site.instagram],["TikTok",site.tiktok]].forEach(([name,url])=>{ if(url){ const a=document.createElement("a");a.href=url;a.target="_blank";a.rel="noopener noreferrer";a.textContent=name;social.appendChild(a);} });
 
   setText("menu-intro",menu.intro);
   const sections=$("menu-sections");
