@@ -41,13 +41,13 @@
         },
         {
           "name": "Cold Brew",
-          "description": "Brewed in-house for 18 hours. 16 oz / 20 oz.",
-          "price": "$5.50 / $6.50"
+          "description": "Brewed in-house for 18 hours. 16 oz.",
+          "price": "$6.50"
         },
         {
           "name": "Matcha Latte",
           "description": "Matcha and milk, served hot or iced. 16 oz.",
-          "price": "$6.75"
+          "price": "$6.50"
         },
         {
           "name": "Stevie's Hot Chocolate",
