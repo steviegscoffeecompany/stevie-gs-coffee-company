@@ -242,22 +242,22 @@
         {
           "name": "Plain Waffle",
           "description": "Served with butter and syrup. Add chocolate sauce, strawberries, raspberries, bananas or white chocolate chips +$3.00.",
-          "price": "$6.00"
+          "price": "$7.00"
         },
         {
           "name": "Pressed Grilled Cheese",
           "description": "",
-          "price": "$6.00"
+          "price": "$7.00"
         },
         {
           "name": "Ham & Cheese Sandwich",
           "description": "",
-          "price": "$6.00"
+          "price": "$7.00"
         },
         {
           "name": "Turkey & Cheese Sandwich",
           "description": "",
-          "price": "$6.00"
+          "price": "$7.00"
         },
         {
           "name": "Chocolate Milk",
