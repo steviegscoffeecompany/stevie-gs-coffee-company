@@ -76,7 +76,7 @@
       "items": [
         {
           "name": "Chai Tea",
-          "description": "Our chai comes straight from India. Organic chai blend, fresh spices and steamed milk. 12 oz / 16 oz.",
+          "description": "Organic chai blend, fresh spices and steamed milk. 12 oz / 16 oz.",
           "price": "$5.50 / $6.50"
         },
         {
@@ -126,7 +126,7 @@
         },
         {
           "name": "The Overlook",
-          "description": "Open-faced sourdough topped with avocado spread, arugula, fried egg and feta, finished with our house-made sweet and spicy white sauce.",
+          "description": "Open-faced sourdough topped with avocado, arugula, fried egg and feta, finished with our house-made sweet and spicy white sauce.",
           "price": "$14.00"
         },
         {
@@ -215,8 +215,8 @@
           "price": "$12.00"
         },
         {
-          "name": "Cookie Butter",
-          "description": "Creamy cookie butter and crunchy cookie, topped with whipped cream.",
+          "name": "Pumpkin Pie",
+          "description": "Pumpkin sauce, pecans, whipped cream and powdered sugar.",
           "price": "$12.00"
         },
         {
