@@ -126,7 +126,7 @@
         },
         {
           "name": "The Overlook",
-          "description": "Open-faced sourdough topped with avocado, arugula, fried egg and feta, finished with our house-made sweet and spicy white sauce.",
+          "description": "Open-faced sourdough topped with avocado, arugula, fried egg, pickled red onions and feta, finished with our house-made sweet and spicy white sauce.",
           "price": "$14.00"
         },
         {
@@ -146,12 +146,12 @@
         },
         {
           "name": "Ham & Jam",
-          "description": "Freshly sliced ham, arugula, Havarti and raspberry jam sauce.",
+          "description": "Freshly sliced ham, arugula, Havarti and our housemade raspberry jam sauce.",
           "price": "$14.00"
         },
         {
           "name": "Summit Chicken Salad",
-          "description": "Fresh-made chicken salad with arugula and a sweet and savory balsamic glaze.",
+          "description": "Fresh-made chicken salad with arugula and a sweet and savory balsamic glaze served on a croissant.",
           "price": "$14.00"
         },
         {
@@ -161,7 +161,7 @@
         },
         {
           "name": "The Seaside",
-          "description": "Tuna, arugula and fresh tomato.",
+          "description": "Tuna, arugula and fresh sliced tomato.",
           "price": "$12.50"
         },
         {
