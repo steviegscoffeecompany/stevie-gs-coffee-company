@@ -183,16 +183,6 @@
           "name": "Pasta Salad",
           "description": "",
           "price": "$3.50"
-        },
-        {
-          "name": "Broccoli Salad",
-          "description": "",
-          "price": "$4.00"
-        },
-        {
-          "name": "Grape Salad",
-          "description": "",
-          "price": "$4.50"
         }
       ]
     },
