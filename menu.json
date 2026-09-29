@@ -64,13 +64,43 @@
     {
       "name": "Specialty Coffee",
       "items": [
-        {
-          "name": "Specialty Coffee",
-          "description": "One size — 16 oz. See our Specialty Coffee Menu for our signature creations.",
-          "price": "$7.50"
-        }
-      ]
+    {
+      "name": "I Put a Spell on You!",
+      "description": "Cinnamon, honey, and cayenne chai latte",
+      "price": "$7.50"
     },
+    {
+      "name": "Another Glorious Morning",
+      "description": "Caramel apple butter latte with vanilla cold foam",
+      "price": "$7.50"
+    },
+    {
+      "name": "Just a Bunch of Pumpkin Spice",
+      "description": "Pumpkin spice latte with praline cold foam",
+      "price": "$7.50"
+    },
+    {
+      "name": "Winifred's Spell",
+      "description": "Raspberry & white chocolate latte",
+      "price": "$7.50"
+    },
+    {
+      "name": "I Smell Pumpkin!",
+      "description": "Pumpkin cinnamon roll topped with white chocolate cold foam and cinnamon (hot or iced)",
+      "price": "$7.50"
+    },
+    {
+      "name": "Black Flame Candle",
+      "description": "Our mocha sauce paired with our hazelnut syrup (hot or iced)",
+      "price": "$7.50"
+    },
+    {
+      "name": "Billy's Revival",
+      "description": "Matcha with white chocolate sauce and Madagascar vanilla (hot or iced)",
+      "price": "$7.50"
+    }
+  ]
+},
     {
       "name": "Chai & Tea",
       "items": [
